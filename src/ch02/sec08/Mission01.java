@@ -5,7 +5,8 @@ public class Mission01 {
         int num1 = 10;
         int num2 = 3;
 
-        double result = num1 / num2;
+        double result = (double)num1 / num2; //3.0
+
         System.out.println("result: " + result); // 3.33333 어쩌고 나오게 처리 해주세요
     }
 }
