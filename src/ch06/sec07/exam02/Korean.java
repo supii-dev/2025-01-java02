@@ -6,7 +6,7 @@ public class Korean {
     String ssn;
 
     public Korean() {
-        this("신사임당", "901022-2754312");
+        this("신사임당", "901022-2754312");// 객체 사용법
     }
 
     public Korean(String name, String ssn) {
@@ -15,3 +15,4 @@ public class Korean {
         this.ssn = ssn;
     }
 }
+
