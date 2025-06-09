@@ -12,6 +12,4 @@ public class Mission02Method {
         int lastDotIdx = filename.lastIndexOf(".");
         return filename.substring(lastDotIdx + 1);
     }
-
-
 }
