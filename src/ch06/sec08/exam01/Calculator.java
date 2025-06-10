@@ -1,4 +1,4 @@
-package ch06.sec08;
+package ch06.sec08.exam01;
 
 public class Calculator {
     //void 메소드
@@ -16,3 +16,7 @@ public class Calculator {
 }
 //일만하겟다 값저장용아님
 //생성자를 안적으면 기본으로 생김
+
+//멤버필드에는 스테틱
+//스테틱이 없다면 문서다
+//스테틱이있다면 진또배기

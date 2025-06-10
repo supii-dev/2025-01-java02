@@ -7,4 +7,5 @@ public class Car {
     String model = "그랜저";
     int maxSpeed = 350;
     int speed;
+
 }
