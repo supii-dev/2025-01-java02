@@ -7,6 +7,8 @@ public class Card {
     public Card(String pattern, String denomination) {
         this.pattern = pattern;
         this.denomination = denomination;
+
+
     }
 
     public String getPattern() {
@@ -17,10 +19,13 @@ public class Card {
         return denomination;
     }
 
+
+
     @Override
     public String toString() {
         return String.format("%s (%s)", this.pattern, this.denomination);
     }
+
 
     //getters 만든다.
 
