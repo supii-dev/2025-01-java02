@@ -12,13 +12,14 @@ public class ArrayListStudy {
         // 제한의 의미는 오로지 String객체 주소값만 담을 수 있는 컬렉션
         Card card = new Card("", "");
         //list.add(card); 안 담긴다.
-        System.out.println("list.size(): " + list.size());
+        System.out.println("list.size(): " + list.size()); // 0이 나옴
         list.add("가"); //0번 방에 "가" 주소값 들어간다.
         list.add("나"); //1번 방에 "나" 주소값 들어간다.
-        System.out.println("list.size(): " + list.size());
+        list.add(1,"다");
+        System.out.println("list.size(): " + list.size());//2가 뜸
         System.out.println("list.get(0): " + list.get(0));
         System.out.println("list.get(1): " + list.get(1));
-
-
+        list.remove(1);
+        System.out.println("list.get(1): " + list.get(1));
     }
 }
