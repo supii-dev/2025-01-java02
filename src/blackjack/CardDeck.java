@@ -1,7 +1,7 @@
 package blackjack;
 
 public class CardDeck {
-    private String[] patterns = { "♠", "♥", "◆", "♣" };
+    private String[] patterns = { "Spade", "Heart", "Diamond", "Clover" };
     private Card[] cards = new Card[52]; //cards는 카드객체 52개의 주소값을 저장한 친구한테 접근할 수 있다.
     private int selectedIdx = 0;
 
@@ -11,10 +11,10 @@ public class CardDeck {
         for(int i=0; i<patterns.length; i++) { //4
             for(int k=1; k<=13; k++) { //13
                 String denomination = switch (k) {
-                    case 1 -> "A(1)";
-                    case 11 -> "J(11)";
-                    case 12 -> "Q(12)";
-                    case 13 -> "K(13)";
+                    case 1 -> "A";
+                    case 11 -> "J";
+                    case 12 -> "Q";
+                    case 13 -> "K";
                     default -> String.valueOf(k);
                 };
                 cards[index++] = new Card(patterns[i], denomination);
