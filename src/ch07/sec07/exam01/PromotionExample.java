@@ -20,3 +20,5 @@ class C extends A { }
 
 class D extends B { }
 class E extends C { }
+
+

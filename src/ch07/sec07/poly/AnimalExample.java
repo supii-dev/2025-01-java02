@@ -6,14 +6,20 @@ public class AnimalExample {
         Tiger tiger = new Tiger();
         Cow cow = new Cow();
         Dog dog = new Dog();
+        BullDog bulldog = new BullDog();
 
         animalCrying(cat);
         animalCrying(tiger);
         animalCrying(cow);
         animalCrying(dog);
+        animalCrying(bulldog);
     }
-    public void animalCrying(Animal animal){
+    public static void animalCrying(Animal animal) {
         animal.crying();
-
+        //dog객체 넘어오면 jump메소드
+        if (animal instanceof Dog) {
+            Dog dog = (Dog) animal;
+            dog.jump();
+        }
     }
 }

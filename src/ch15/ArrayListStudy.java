@@ -23,3 +23,4 @@ public class ArrayListStudy {
         System.out.println("list.get(1): " + list.get(1));
     }
 }
+
